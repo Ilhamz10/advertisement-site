@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path='advertisement-site' element={<HomePage />} />
         <Route path='category_page' element={<CategoryPage />} />
         <Route path='product_page' element={<ProductPage />} />
         <Route path='contacts' element={<ContactsPage />} />

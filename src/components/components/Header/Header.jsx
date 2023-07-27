@@ -26,7 +26,7 @@ export default function Header() {
                         </div>
                         <ul>
                             <li>
-                                <Link to={'/'}>Ana Səhifə</Link>
+                                <Link to={'advertisement-site'}>Ana Səhifə</Link>
                             </li>
                             <li>
                                 <Link to={'missions'}>Missiyamiz</Link>
