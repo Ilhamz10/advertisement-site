@@ -1,0 +1,112 @@
+.category, .service, .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    position: relative;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.contact .iconCont{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px dashed #2CB570;
+    transition: .3s;
+}
+
+.contact:hover .iconCont{
+    background: #2CB570;
+    border-color: transparent;
+}
+
+.contact:hover .iconCont svg{
+    fill: white;
+}
+
+.contact .title{
+    font-weight: 500;
+    color: #0B2040;
+}
+
+.contact .description{
+    color: #747171;
+}
+
+.category:hover{
+    border: transparent;
+}
+
+.category::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #0B2040, #2CB570);
+    opacity: 0;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.category:hover::before{
+    opacity: 1;
+}
+
+.title{
+    font-size: 18px;
+    margin-top: 36px;
+    transition: .5s;
+    text-align: center;
+}
+
+.category:hover .title{
+    color: white;
+}
+
+.category svg{
+    transition: .5s;
+}
+
+.category:hover svg{
+    fill: white;
+}
+
+.service{
+    position: relative;
+    height: 170px;
+}
+
+.service .title{
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.text{
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    text-align: center;
+}
+
+.text li{
+    color: #747171;
+}
+
+.service:hover{
+    height: 290px;
+}
+
+.service:hover .text{
+    height: 160px;
+}

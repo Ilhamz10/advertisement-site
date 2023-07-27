@@ -1,0 +1,19 @@
+.missionPage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.missionPage img{
+    width: 100%;
+}
+
+.mission{
+    display: grid;
+    gap: 20px;
+}
+
+.mission p{
+    color: #747171;
+}

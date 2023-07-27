@@ -1,0 +1,140 @@
+.headerSection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.headerContext{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.headerContext h1{
+    font-size: 3rem;
+}
+
+.headerContext p{
+    color: #747171;
+}
+
+.headerContext button{
+    padding: 10px 20px;
+    border: 1px solid #2CB570;
+    color: #2CB570;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.headerContext button:hover{
+    background: #2CB570;
+    color: white;
+}
+
+.headerImage img{
+    width: 100%;
+}
+
+.categoryGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+    row-gap: 8px;
+}
+
+.servicesSection{
+    height: 550px;
+}
+
+.serviceGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 8px;
+}
+
+.dotsCont{
+    gap: 20px;
+}
+
+.sliderDots svg{
+    fill: white !important;
+}
+
+button.prevBtn, button.nextBtn {
+    background: none !important;
+    width: 100px;
+}
+
+.sectionTitle{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.aboutSectionInner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutText{
+    display: grid;
+    row-gap: 20px;
+    font-size: 1.1rem;
+    color: #747171;
+}
+
+.aboutText h4{
+    color: #2CB570;
+}
+
+.aboutVideo{
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    transition: .3s;
+    position: relative;
+}
+
+.aboutVideo .playBtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-shadow: 0 15px 20px 0 rgb(0 0 0 / 12%);
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.playBtn svg{
+    transition: .3s;
+}
+
+.aboutVideo:hover{
+    border-color: #2CB570;
+}
+
+.aboutVideo:hover .playBtn svg{
+    fill: #2CB570;
+}
+
+.aboutVideo img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.aboutVideo p{
+    margin: 25px 0 15px;
+    text-align: center;
+    font-size: 1.2rem;
+}

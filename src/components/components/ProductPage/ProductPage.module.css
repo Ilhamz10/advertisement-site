@@ -1,0 +1,35 @@
+.productPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px 0;
+}
+
+.imageContainer img{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.available{
+    color: #1fd85d;
+    font-size: 14px;
+}
+
+.productName{
+    font-size: 30px;
+}
+
+.productName span{
+    font-weight: bold;
+}
+
+.productDescription{
+    font-size: 14px;
+}

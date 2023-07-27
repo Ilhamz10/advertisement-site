@@ -1,0 +1,40 @@
+footer{
+    background: #0B2040;
+    color: white;
+    padding: 100px 0;
+    margin-top: 40px;
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+}
+
+.companyInfo{
+    display: grid;
+    row-gap: 20px;
+}
+
+.info{
+    color: rgb(206, 206, 206);
+    font-size: 0.9rem;
+}
+
+.companyContacts{
+    display: grid;
+    row-gap: 10px;
+    font-size: 0.9rem;
+}
+
+.footerLinks{
+    display: grid;
+    row-gap: 10px;
+}
+
+.footerLinks p{
+    font-size: 0.9rem;
+    color: rgb(206, 206, 206);
+}

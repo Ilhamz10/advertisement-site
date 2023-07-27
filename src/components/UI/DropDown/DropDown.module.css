@@ -1,0 +1,24 @@
+.dropDown {
+    padding: 10px;
+    background: #000;
+    color: white;
+}
+
+.dropDown ul {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 2s linear;
+    transition-delay: 0s;
+}
+
+.dropDown ul li{
+    padding: 10px;
+}
+
+.dropDown ul li:hover{
+    background: gray;
+}
+
+.dropDown:hover ul {
+    max-height: 1000px;
+}
